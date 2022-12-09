@@ -14,7 +14,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/home',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "首页" */  '@/layout/index.vue'),
+    component: () => import(/* webpackChunkName: "首页" */  '@/views/home/index.vue'),
     meta: {
       label: 'home',
       name: '首页',
