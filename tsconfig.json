@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM", "ES2016"], //新增
+    "skipLibCheck": true,
+    "noEmit": true,
+      // 新增
+    "paths": {
+      "@/*": ["src/*"],
+      "@page/*": ["src/views/*"],
+      "@img/*": ["src/asstes/img/*"]
+  },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "auto-imports.d.ts",//新增
+    "components.d.ts"//新增
+],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
