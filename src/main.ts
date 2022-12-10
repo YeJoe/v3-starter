@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 // import './style.css'
 import App from './App.vue'
 import { router } from '@/router'
-import 'view-ui-plus/dist/styles/viewuiplus.css'
 //引入pinia
 import pinia from '@/pinia'// 导入 Pinia
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate' // 导入 Pinia 插件
